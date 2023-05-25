@@ -7,7 +7,6 @@ function Login() {
 
   function updateUsername(e) {
     // Uppdatera state för username
-    // Uppdatera state för username
     const username = e.target.value;
     setUser({ ...user, username: username });
   }
