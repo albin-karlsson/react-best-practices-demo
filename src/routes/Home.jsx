@@ -1,11 +1,13 @@
 import React from "react";
 import Counter from "../components/Counter";
+import Login from "../components/Login";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div>
       <h1 style={headerStyle}>Home page</h1>
+      <Login />
       <Counter />
       <Link to="/about">
         <div>
