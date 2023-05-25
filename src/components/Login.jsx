@@ -24,7 +24,7 @@ function Login() {
         onChange={updateUsername}
       />
       <input
-        type="text"
+        type="password"
         onChange={updatePassword}
       />
       <button
