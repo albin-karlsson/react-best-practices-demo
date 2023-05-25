@@ -28,6 +28,13 @@ function Login() {
         type="text"
         onChange={updatePassword}
       />
+      <button
+        onClick={() => {
+          console.log(user);
+        }}
+      >
+        Log user to console
+      </button>
     </div>
   );
 }
