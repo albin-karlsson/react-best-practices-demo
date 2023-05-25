@@ -8,7 +8,7 @@ function LocalStorage() {
   }
 
   function addToLocalStorage() {
-    // Hämta innehållet i local storage med keyn "people"
+    // Hämta innehållet i local storage med keyn "people" (kommer vara JSON)
     let people = localStorage.getItem("people");
 
     // Om vi inte har någonting i people...
@@ -25,7 +25,7 @@ function LocalStorage() {
     // Lägg till det nya objektet till people-array:en
     people.push({ name: name });
 
-    // Spara hela nya people-array:en till local storage
+    // Spara hela nya people-array:en (i form av JSON) till local storage
     localStorage.setItem("people", JSON.stringify(people));
   }
 
